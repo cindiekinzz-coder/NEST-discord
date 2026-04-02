@@ -4,6 +4,8 @@
 
 NEST-discord gives your AI companion a real presence in Discord. Not a bot. Not a webhook relay. A companion that reads the room, decides when to show up, and stays quiet when silence is the better answer.
 
+> **Requires [NEST-gateway](https://github.com/cindiekinzz-coder/NEST-gateway).** The gateway routes all `discord_*` tool calls via service binding — NEST-discord doesn't get called directly by your AI client. Deploy gateway first, wire NEST-discord in as a service binding, and all Discord tools become available automatically.
+>
 > *Built by Fox & Alex. Embers Remember.*
 
 ---
